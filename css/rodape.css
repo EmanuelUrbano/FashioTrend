@@ -1,0 +1,82 @@
+.rodape{
+    text-align: center;
+    font-size: 12px;
+    padding: 24px  5%;
+    background-color: var(--pesquise);
+}
+
+.rodape_logo{
+        width: 180px;
+    margin-bottom: 16px;
+}
+
+.rodape_infos-empresa{
+    line-height: 1.75;
+}
+.rodape-titulo{
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.rodape_item-lista{
+    font-weight: 500;
+    margin: 10px 0;
+    text-align: center;
+}
+
+@media(max-width: 640px){
+    .rodape_secao{
+        margin-top: 24px;
+    }
+}
+
+@media(min-width: 640px) and (max-width: 1200px){
+    .rodape{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        font-size: 16px;
+    }
+
+    .rodape_socao-sobre,
+    .rodape_secao-cursos,
+    .rodape_secao-links,
+    .rodape_secao-newsletter{
+        width: 45%;
+    }
+
+    .rodape_secao-cursos{
+        order: 1;
+        margin: 0;
+    }
+
+    .rodape_secao-links{
+        order: 2;
+        margin: 0;
+        text-align: center;
+    }
+
+    .rodape_secao-sobre{
+        order: 3;
+        margin-top: 32px;
+    }
+
+    .rodape_secao-newsletter{
+        order: 4;
+        margin-top: 32px;
+    }
+}
+
+    .rodape{
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .rodape_titulo{
+        font-size: 20px;
+        text-align: center;
+    }
