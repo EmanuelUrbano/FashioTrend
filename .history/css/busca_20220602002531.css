@@ -12,9 +12,6 @@ section.busca_container{
     justify-content: space-between;
 }
 
-.formulario_de_busca label{
-    color: var(--body);
-}
 .formulario_de_busca input{
     height: 50px;
 

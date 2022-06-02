@@ -9,12 +9,9 @@ section.busca_container{
     align-items: center;
     flex-wrap: nowrap;
     font-size: 20px;
-    justify-content: space-between;
+    
 }
 
-.formulario_de_busca label{
-    color: var(--body);
-}
 .formulario_de_busca input{
     height: 50px;
 
