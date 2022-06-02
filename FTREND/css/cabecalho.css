@@ -1,0 +1,55 @@
+@import url(colors.css);
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bangers&family=PT+Serif:ital,wght@1,700&family=Quicksand:wght@300;600&display=swap');
+
+
+.cabecalho{
+    background-color: var(--cabecalho);
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Bangers', cursive;
+    font-family: 'PT Serif', serif;
+    font-family: 'Quicksand', sans-serif;
+    height: 300px;
+}
+
+.cabecalho_logo{
+    width: 232px;
+    position: relative;
+    top: -70px;
+    left: 30px;
+}
+
+.cabecalho_item-menu{
+    display: inline-block;
+    position: relative;
+    left: -400px;
+    top:-70px;
+}
+
+.cabecalho_item-menu a{
+    display: inline-block;
+    padding: 30px 22px;
+}
+
+.cabecalho_item-menu a:hover{
+    color: var();
+}
+
+    .cabecalho{
+        padding: 0 5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .cabecalho_menu{
+        background-color: transparent;
+    }
+.material-symbols-outlined {
+    position: relative;
+    
+}
